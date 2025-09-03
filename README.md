@@ -65,3 +65,33 @@ npm run register
 npm start
 
 For full instructions see INSTALL.md
+
+.
+🚀 Usage
+
+Inside your Discord server:
+
+    Run /gatekeeper setup → select Airlock, Approvals, Public channels and roles.
+
+    Run /gatekeeper language bootstrap → creates predefined language roles.
+
+    Invite test users or use /gatekeeper simulate join.
+
+For details see HOWTO.md
+
+.
+🔒 Security
+
+    Bot stores only minimal user data (user IDs, language choice, nickname, status).
+
+    No chat messages or sensitive personal data are stored.
+
+    See PRIVACY.md
+
+    for full details.
+
+📜 License
+
+This project is private for now, but can be adapted for other alliances/servers.
+All use is subject to TERMS.md
+.
