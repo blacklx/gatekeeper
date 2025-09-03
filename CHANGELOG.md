@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Command `/gatekeeper language list` for showing all configured languages and roles.
+- Command `/gatekeeper language me` to let users change their own language role.
+- Command `/gatekeeper language set` to let Leaders assign language roles to members.
+
+---
+
+## [0.1.0] - 2025-09-03
+
+### Added
 - Initial onboarding flow (`/gatekeeper setup`) with Airlock, Approvals and Public chat.
 - Language system with per-guild configuration and role creation.
 - Distinction between **Guest** and **Member** language roles to enforce channel separation.
@@ -37,3 +46,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nickname handling improved; bot now checks role hierarchy and permissions.
 - Error handling for missing configs and invalid interactions.
 
+[Unreleased]: https://github.com/blacklx/gatekeeper/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/blacklx/gatekeeper/releases/tag/v0.1.0
